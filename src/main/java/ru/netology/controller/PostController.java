@@ -9,8 +9,8 @@ import java.io.IOException;
 import java.io.Reader;
 
 public class PostController {
-  public static final String APPLICATION_JSON = "application/json";
-  public static final Gson GSON = new Gson();
+  private static final String APPLICATION_JSON = "application/json";
+  private static final Gson GSON = new Gson();
   private final PostService service;
 
 
